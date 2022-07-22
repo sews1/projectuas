@@ -6,6 +6,41 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Fashion Color-store</title>
   <link rel="stylesheet" href="{% static "css/style.css" %}">
+  <style>
+    
+        #contact {
+    background: #dedede;
+    padding: 50px 0px 50px 0;
+    width: 100%;
+}
+
+
+.footer {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.footer-section {
+    width: 20%;
+    margin: 0 auto;
+}
+
+    /* footer {
+    max-width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background-color: #FFE5B4;
+    z-index: 1;
+    border-bottom: 1px solid blue;
+} */
+  </style>
 </head>
 <body>
   <nav> 
@@ -28,88 +63,30 @@
     <section id="home"> 
       <img src="https://img.freepik.com/free-vector/set-sketches-beautiful-diverse-female-fashion-outfits_1150-52762.jpg?size=626&ext=jpg&ga=GA1.2.1415652735.1656757528"/>
       <div class="kolom">
-        <p class="Deskripsi">Pilihan store fashion #onlineshop</p>
-        <h2>Kualitas Bagus, Harga Terjangkau</h2>
+        <p class="Deskripsi">Pilihan store fashion #yourstyleisyou</p>
+        <h2>Choose Your Favorit Style</h2>
         <p>Tentukan stylemu, karena penampilan merupakan gambaran diri.</p>
-        <p><a href="{{menu}}" class="tbl-pink">Pelajari Lebih Lanjut</a></p>
+        <p><a href="{{menu}}" class="tbl-pink">You Will Need This</a></p>
       </div>
     </section>
 
     <!--untuk Menu-->
-    <section id="Menu">
+    <section id="About">
       <div class="kolom">
-        <p class="Deskripsi">You Will Need This</p>
-        <h2>Online Menu</Menu></h2>
+        <p class="Deskripsi">What is This About?</p>
+        <h2>About Us</Menu></h2>
         <p>Merupakan situs rekomendasi fashion pada online shop. pengguna web ini akan diarahkan langsung pada link menuju pada toko online yang tertera pada barang yang dipilih.</p>
           <p>Yang pastinya dapat dipercaya dengan harga, kualitas yang dijamin tidak merugikan costumer. Website ini dibuat untuk saling menguntungkan bagi costumer dan penjual, agar tidak terjadi kekecewaan bagi pelanggan</p>
-          <p><a href="" class="tbl-biru">Selanjutnya</a></p>
       </div>
       <img src="https://img.freepik.com/free-photo/product-package-boxes-shopping-bag-cart-with-laptop-online-shopping-delivery-concept_38716-138.jpg?size=626&ext=jpg&ga=GA1.2.1415652735.1656757528"/>
     </section>
 
-    <!--untuk Tema-->
-    <section id="Tema">
-      <div class="tengah">
-        <div class="kolom">
-          <p class="Deskripsi">Our Top Style</p>
-          <h2>Style</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, optio!</p>
-        </div>
 
-        <div class="style-list">
-          <div class="casual-style">
-            <img src="https://tse2.mm.bing.net/th?id=OIP.J65ijktrnKXgO_Z25dKmPwHaHa&pid=Api&P=0&w=154&h=154"/>
-            <p>Casual Style Hijab</p>
-          </div>
-           <div class="casual-style">
-            <img src="https://i.pinimg.com/originals/be/49/de/be49de9ac6240ba9fabb399f3af93025.jpg"/>
-            <p>Casual Style Hijab</p>
-        </div>
-         <div class="casual-style">
-            <img src="https://i.pinimg.com/474x/c6/ce/e7/c6cee7fa0fd10e1992fd57f3d40bd09e.jpg"/>
-            <p>Casual Style Hijab</p>
-      </div>
-       <div class="casual-style">
-            <img src="https://i.pinimg.com/474x/c6/ce/e7/c6cee7fa0fd10e1992fd57f3d40bd09e.jpg"/>
-            <p>Casual Style Hijab</p>
-       </div>
+    <div id="copyright">
+      <div class="wrapper">
+        &copy; 2022. <b>Fashion_Recoment-store</b> All Rights Reserved.
       </div>
     </div>
-    </section>
-
-    <!--untuk about-->
-    <section id="about">
-      <div class="tengah">
-        <div class="kolom">
-          <p class="deskripsi">About Us</p>
-          <h2>About</h2>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto nihil animi sed ex molestias expedita nemo, veniam voluptatem illum laborum?</p>
-        </div>
-
-        <div class="about-list">
-          <div class="about-Website">
-            <img src="https://img.freepik.com/free-vector/flat-illustration-hand-drawn-flat-people-with-fashionable-girl-collection_540637-149.jpg?size=338&ext=jpg&ga=GA1.2.1415652735.1656757528"/>
-          </div>
-          <div class="about-Website">
-            <img src="https://img.freepik.com/free-vector/hand-drawn-sustainable-fashion-concept_52683-54915.jpg?size=338&ext=jpg"/>
-          </div>
-          <div class="about-website">
-            <img src="https://img.freepik.com/free-vector/recycled-clothes-concept-flat-hand-drawn_52683-55280.jpg?size=626&ext=jpg&ga=GA1.2.1415652735.1656757528"/>
-          </div>
-          <div class="about-Website">
-            <img src="https://img.freepik.com/free-vector/flat-hand-drawn-fashion-designer-concept_52683-54447.jpg?size=626&ext=jpg&ga=GA1.2.1415652735.1656757528"/>
-          </div>
-        </div>
-      </div>
-    </section>
-  </div>
-
-  <div id="contact">
-    <div class="wrapper">
-      &copy; 2022. <b>Fashion_Recoment-store</b> All Rights Reserved.
-    </div>
-  </div>
-
 
 </body>
 </html> 

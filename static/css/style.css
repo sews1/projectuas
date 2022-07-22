@@ -198,6 +198,7 @@ h3 {
     font-size: 30px;
     margin-bottom: 20px;
     color: #364f6b;
+    width: 100%;
     line-height: 50px;
 }
 
@@ -206,11 +207,12 @@ h3 {
     width: 100%;
     padding: 50px 0px 50px 0px;
     margin-top: 50px;
+    color: #51557E;
 }
 
 @media screen and (max-width: 911.98px) {
     .wrapper {
-        width: 90%;
+        width: 900%;
     }
     .logo a {
         display: block;
